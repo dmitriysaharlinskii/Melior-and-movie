@@ -1,5 +1,33 @@
-# Object file
-*.o
+HELP.md 
+цель/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/основная /**/цель/
+!**/src /тестовая /**/цель/
 
-# Ada Library Information
-*.ali
+### STS ###
+.apt_generated 
+.путь к классу 
+.путь к фабрике 
+.проект 
+.настройки 
+.springBeans 
+.sts4-кэш
+
+### IntelliJ IDEA ###
+.idea 
+*.iws 
+*.iml 
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
